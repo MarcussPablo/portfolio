@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+    font-family: 'Arial', sans-serif;  /* Adiciona uma fonte base para todo o conteúdo */
+    background-color: #f4f4f4;       /* Define uma cor de fundo neutra */
+  }
+  

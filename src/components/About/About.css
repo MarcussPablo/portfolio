@@ -1,0 +1,69 @@
+/* Estilo geral da seção */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2d2d2d;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .about p strong {
+    font-weight: bold;
+    color: #0073e6; /* Destaque para palavras-chave */
+  }
+  
+  .about a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .about a:hover {
+    color: #005bb5;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .about {
+      padding: 30px 10px;
+    }
+  
+    .about h2 {
+      font-size: 28px;
+    }
+  
+    .about p {
+      font-size: 16px;
+      max-width: 90%; /* Ajuste para maior aproveitamento da tela */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .about h2 {
+      font-size: 24px;
+    }
+  
+    .about p {
+      font-size: 14px;
+      max-width: 100%; /* Deixa o texto ocupar a largura total em telas muito pequenas */
+    }
+  }
+  
