@@ -1,5 +1,6 @@
 import React from 'react';
 import './Projects.css';
+import mundoInvertido from '../../images/mundo-invertido.png'
 
 const Projects = () => {
   return (
@@ -8,7 +9,7 @@ const Projects = () => {
       <p>Esta seção irá mostrar meus projetos mais recentes e as tecnologias que utilizei para desenvolvê-los.</p>
 
       <div className="project">
-        <img src="src/images/mundo-invertido.png" alt="Projeto 1" className="project-image" />
+      <img src={mundoInvertido} alt="Projeto 1" className="project-image" />
         <div className="project-info">
           <h3>Mundo Invertido</h3>
           <p>Projeto desenvolvido em bootcamp da DIO. Utiliza HTML, CSS e JAVASCRIPT puros. Explora conceitos
