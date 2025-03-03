@@ -25,7 +25,7 @@ const ContactForm = () => {
       from_name: formData.name,
       reply_to: formData.email, // Garante que o e-mail do usuário seja enviado corretamente
       message: formData.message,
-      to_name: "Nome do Destinatário", // Aqui você pode ajustar ou adicionar dinamicamente
+      to_name: "<Marcus>", // Aqui você pode ajustar ou adicionar dinamicamente
     };
 
     emailjs

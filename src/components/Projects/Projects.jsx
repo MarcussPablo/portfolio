@@ -1,7 +1,8 @@
 import React from 'react';
 import './Projects.css';
 import mundoInvertido from '../../images/mundo-invertido.png'
-
+import todoSite from '../../images/siteTodoList.png'
+todoSite
 const Projects = () => {
   return (
     <section className="projects">
@@ -15,8 +16,19 @@ const Projects = () => {
           <p>Projeto desenvolvido em bootcamp da DIO. Utiliza HTML, CSS e JAVASCRIPT puros. Explora conceitos
             de background e inversão de tema claro para escuro dentre outros.
           </p>
-          <a href="https://mundo-invertido-marcus.netlify.app/">Ver projeto online</a>
+          <a href="https://mundo-invertido-marcus.netlify.app/" target='_blank'>Ver projeto online</a>
         </div>
+        
+      </div>
+      <div className="project">
+      <img src={todoSite} alt="Projeto 1" className="project-image" />
+        <div className="project-info">
+          <h3>Todo-list com localstorage</h3>
+          <p>Todo-list simples que esxplora hooks React e conceitos de persistencia em localStorage.
+          </p>
+          <a href="https://chic-torrone-d8da22.netlify.app/" target='_blank'>Ver projeto online</a>
+        </div>
+        
       </div>
 
     </section>
