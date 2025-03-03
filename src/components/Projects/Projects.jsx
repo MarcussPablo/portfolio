@@ -24,7 +24,7 @@ const Projects = () => {
       <img src={todoSite} alt="Projeto 1" className="project-image" />
         <div className="project-info">
           <h3>Todo-list com localstorage</h3>
-          <p>Todo-list simples que esxplora hooks React e conceitos de persistencia em localStorage.
+          <p>Todo-list simples que explora hooks React e conceitos de persistência em localStorage.
           </p>
           <a href="https://chic-torrone-d8da22.netlify.app/" target='_blank'>Ver projeto online</a>
         </div>
