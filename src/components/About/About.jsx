@@ -4,7 +4,7 @@ import './About.css';
 const About = () => {
   return (
     <section className="about">
-      <h2>Sobre Mim</h2>
+      <h2>Sobre Mim mmm</h2>
       <p>
         Sou Marcus Lins, um desenvolvedor Front-End especializado em <strong>React</strong>. Com uma sólida experiência em HTML, CSS, JavaScript e React, sou apaixonado por criar interfaces de usuário modernas e eficientes, com foco em performance e experiência do usuário.
       </p>
