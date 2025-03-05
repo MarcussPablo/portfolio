@@ -1,4 +1,5 @@
 import ContactForm from "../ContactForm/ContactForm"
+import WhatsAppButton from "../Watsapp/Watsapp"
 
 
 
@@ -7,6 +8,7 @@ const Contact = () =>{
   
         <div>
           <ContactForm/>
+          <WhatsAppButton/>
         </div>
     
     )
