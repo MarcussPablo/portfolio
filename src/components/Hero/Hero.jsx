@@ -9,7 +9,7 @@ const Hero = () => (
           <p>Eu sou Marcus Lins. Desenvolvedor web Front-End focado em desenvolvimento com React.</p>
         </div>
         <div className="col-md-6 mx-3">
-          <img className="img-fluid " src="public/images/sem_marca_dagua.png" alt=""
+          <img className="img-fluid " src="/sem_marca_dagua.png" alt=""
           />
         </div>
       </div>
