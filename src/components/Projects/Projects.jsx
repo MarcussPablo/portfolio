@@ -43,7 +43,22 @@ export default function Projects({handleAlert}) {
             </div>
           </div>
 
-
+          
+          <div className="col-md-6 col-lg-4">
+            <div className="card bg-secondary h-100 shadow-sm">
+              <img src="/images/task-list-apu.png" className="card-img-top" alt="Projeto 1" />
+              <div className="card-body">
+                <h5 className="card-title">Task-list React/API</h5>
+                <p className="card-text">Task-list com 3/4 de CRUD(get/update/delete) com API simulada Jsonplaceholder e Bootstrap na estilização.</p>
+                <a href="https://github.com/MarcussPablo/TaskLIst-Api-3-4-crud" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-sm">
+                  Ver no GitHub
+                </a>
+                <a href="https://task-list-api.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-info ms-1 btn-sm">
+                  Ver online
+                </a>
+              </div>
+            </div>
+          </div>
 
         </div>
 
