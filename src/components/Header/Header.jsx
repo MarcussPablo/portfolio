@@ -1,9 +1,9 @@
 const Header = () => (
-  <nav className="navbar navbar-expand-md navbar-dark bg-black bg-gradient p-3 my-border rounded "
+  <nav className="navbar navbar-expand-md navbar-dark bg-black bg-gradient mb-5 my-border rounded "
   id="top"
   >
-    <div className="container-fluid">
-      <h1 className="my-border">Marcuslins.com.br</h1>
+    <div className="container">
+      <p className="my-border">Marcuslins.com.br</p>
 
       {/* Botão Hamburguer */}
       <button

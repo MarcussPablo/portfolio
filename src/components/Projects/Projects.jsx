@@ -1,5 +1,5 @@
 
-import { MdOutlineFastRewind } from "react-icons/md";
+
 
 export default function Projects({handleAlert}) {
 
@@ -63,17 +63,7 @@ export default function Projects({handleAlert}) {
         </div>
 
       </div>
-      <div
-      
-      className="topo">
-        <a href="#top"
-        style={{color:'#3b82f6',
-        }}
-        >
-            <div className="topo-seta"><MdOutlineFastRewind /></div>
-            <div>Voltar ao topo</div>
-        </a>
-      </div>
+
     </section>
   );
 }

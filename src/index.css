@@ -1,26 +1,10 @@
-@keyframes rotate {
+.navbar{
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 4em;
 
-  50%{
-    transform: rotateZ(180deg);
-    color: #3b82f6;
-  }
-
-  100%{
-    transform: rotateZ(360deg);
-    
-  }
-}
-@keyframes distac {
-  0%{
-    scale: 1;
-  }
-  50%{
-    scale: 1.005;
-   color:rgb(255, 192, 245)
-  }
-  100%{
-    scale: 1;
-  }
+  
 }
 
 .back-gradient img {
@@ -74,7 +58,7 @@ p {
   left: 0;
   width: 100%;
   min-height: 100vh;
-  height: 100%;
+  height: 100vh;
   opacity: 1;
   background: url('/images/background.png'); /* ajuste o caminho conforme necessário */
   background-repeat: no-repeat;
@@ -113,10 +97,11 @@ p {
 }
 .topo{
   position: absolute;
-  right: 0;
+  left: 0;
   justify-content: center;
   text-align: center;
-  bottom: 10px;
+  bottom: 200px;
+ 
   
 }
 .topo a{
@@ -128,9 +113,24 @@ p {
 }
 
 .topo-seta{
+  
   transform: rotate(90deg);
   
 }
+
+footer{
+  height:15em;
+ display: flex;
+ align-items: center;
+ 
+}
+
+@media (max-width:450px) {
+  html,body{
+  overflow-x: hidden;
+}
+}
+
 
 
 
