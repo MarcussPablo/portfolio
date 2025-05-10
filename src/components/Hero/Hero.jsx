@@ -5,7 +5,7 @@ const Hero = () => (
     <div className="container ">
       <div className="row d-flex justify-content-between text-start flex-column-reverse flex-md-row">
         <div className="col  my-auto">
-          <h2>Bem-vindo ao meu portfólio.</h2>
+          <h2 id="home">Bem-vindo ao meu portfólio.</h2>
           <p className="">Eu sou Marcus Lins. Desenvolvedor web Front-End focado em desenvolvimento com React.</p>
         </div>
         <div className="col-md-6 mx-3">

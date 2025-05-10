@@ -15,18 +15,22 @@ const Header = () => (
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon" ></span>
       </button>
 
       {/* Links do menu */}
       <div className="collapse navbar-collapse justify-content-end" id="navbarMenu">
         <ul className="navbar-nav gap-3">
           <li className="nav-item">
-            <a className="nav-link" href="#skills">Habilidades</a>
+            <a className="nav-link" href="#">Home</a>
           </li>
-          <li className="nav-item">
+           <li className="nav-item">
             <a className="nav-link" href="#services">Serviços</a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#skills">Habilidades</a>
+          </li>
+
           <li className="nav-item">
             <a className="nav-link" href="#projects">Projetos</a>
           </li>
