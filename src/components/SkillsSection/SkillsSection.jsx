@@ -5,7 +5,7 @@ export default function SkillsSection() {
   return (
     <section id="skills" className="py-5">
       <div className="container text-center">
-        <h2 className="mb-4">Habilidades</h2>
+        <h2 className="mb-4 text-dark">Habilidades</h2>
         <div className="row g-4 justify-content-center">
           
           <div className="col-6 col-sm-4 col-md-3">

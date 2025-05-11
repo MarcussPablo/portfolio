@@ -5,7 +5,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-black container-fluid text-light p-4 my-auto "id='contact'>
+    <footer className="bg-dark container-fluid text-light p-4 my-auto "id='contact'>
       <div className="container-fluid text-center">
         <p className="mb-2">&copy; {year} Marcus. Todos os direitos reservados.</p>
 
@@ -18,17 +18,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-           
-      
-       <div className="topo">
-        <a href="#"
-        style={{color:'#3b82f6',
-        }}
-        >
-            <div className="topo-seta"><MdOutlineFastRewind /></div>
-            <div>Voltar ao topo</div>
-        </a>
-      </div>
+
     </footer>
   );
 }

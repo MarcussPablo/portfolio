@@ -19,10 +19,13 @@ const Header = () => (
       </button>
 
       {/* Links do menu */}
-      <div className="collapse navbar-collapse justify-content-end" id="navbarMenu">
+      <div className="collapse navbar-collapse justify-content-end " id="navbarMenu">
         <ul className="navbar-nav gap-3">
           <li className="nav-item">
             <a className="nav-link" href="#">Home</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#sobre">Sobre mim</a>
           </li>
            <li className="nav-item">
             <a className="nav-link" href="#services">Serviços</a>
