@@ -41,11 +41,11 @@ const Hero = () => (
 
 <div className="row align-items-center justify-content-center bg-dark text-light rounded p-4 mt-4" id="sobre">
   <div className="col-12 col-md-6 text-center mb-3 mb-md-0">
-    <img className="img-fluid rounded" style={{ maxWidth: "300px" }} src="/images/sem_marca_dagua.png" alt="Marcus Lins" />
+    <img className="img-fluid border rounded-circle " style={{ width: "300px" }} src="/images/sem_marca_dagua.png" alt="Marcus Lins" />
   </div>
 
   <div className="col-12 col-md-6">
-    <p className="fs-5 m-0 text-md-start text-center">
+    <p className="fs-5 m-0 text-md-start text-start">
       Eu sou Marcus Lins, desenvolvedor Front-End especializado em React. Crio interfaces modernas com foco em performance e usabilidade.
     </p>
   </div>
