@@ -102,6 +102,9 @@
 
 .buttons{
   animation: fadeInUp 3s ease ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faixa-hero:hover{
