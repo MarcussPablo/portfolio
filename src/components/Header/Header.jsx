@@ -1,9 +1,11 @@
+import './Header.css'
+
 const Header = () => (
-  <nav className="navbar navbar-expand-md navbar-dark bg-black bg-gradient mb-5 my-border rounded "
+  <nav className="navbar navbar-expand-md navbar-warning "
   id="top"
   >
     <div className="container">
-      <p className="my-border">Marcuslins.com.br</p>
+      <img className="logo" src="images/logo2.png" alt="logo" />
 
       {/* Botão Hamburguer */}
       <button
@@ -27,15 +29,14 @@ const Header = () => (
           <li className="nav-item">
             <a className="nav-link" href="#sobre">Sobre mim</a>
           </li>
-           <li className="nav-item">
+          <li className="nav-item">
+            <a className="nav-link" href="#projects">Projetos</a>
+          </li>
+                     <li className="nav-item">
             <a className="nav-link" href="#services">Serviços</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#skills">Habilidades</a>
-          </li>
-
-          <li className="nav-item">
-            <a className="nav-link" href="#projects">Projetos</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#contact">Redes</a>

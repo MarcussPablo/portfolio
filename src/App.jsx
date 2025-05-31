@@ -1,3 +1,4 @@
+import About from './components/About'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
@@ -15,9 +16,10 @@ const handleAlert =() => {
     <div className="parent">
       <Header/>
       <Hero/>
+      <About/>
+      <Projects handleAlert={handleAlert} />
       <Services/>
       <SkillsSection/>
-      <Projects handleAlert={handleAlert} />
       <Footer/>
       <WhatsAppButton/>
     </div>

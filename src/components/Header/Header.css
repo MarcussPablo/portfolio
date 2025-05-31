@@ -1,0 +1,28 @@
+:root{
+    --scrollbar-color: rgb(255, 182, 255) ;
+    --link-color:#000;
+}
+
+.navbar{
+  background: linear-gradient(0, #ffdf6b, #FFF8DC, #FFE06B);
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 4rem;
+  top: 0;
+
+}
+
+.logo{
+   height: 4rem;
+}
+
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--link-color);
+}
+.nav-item .nav-link:hover{
+    text-decoration: 4px solid underline #ffdf6b;
+}
+

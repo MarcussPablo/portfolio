@@ -1,15 +1,11 @@
 body{
-  background:#ffffff;
+  background-color: #1a1a14;
+   color: #f0f0f0
+;
 }
 
-.navbar{
-  position: fixed;
-  z-index: 1000;
-  width: 100%;
-  height: 4em;
 
-  
-}
+
 
 .back-gradient img {
   border-radius: 2em;
@@ -19,56 +15,41 @@ h1, h2 {
   font-family: 'Playfair Display', serif;
 }
 
-h1 {
-
-  
-  padding: 0.5em;
-  border-radius: 5px;
-}
-
-.my-border{
-  border: 2px solid #60a5fa; /* azul claro */
-}
 
 
 h2 {
-  color: #b0d3f7; /* cinza claro */
+  
   font-weight: 700;
  
 }
 h3{
-  color: #3b82f6;
+
   animation: distac 2s infinite;
 }
-h4{
-  color: #b0d3f7;
-}
+
 
 p {
-  color: #b0d3f7; /* cinza suave */
+
   font-size: 1.1rem;
-}
-.nav-link{
-  color: #b0d3f7;
 }
 
 
 
 #services{
   background: rgba(15, 15, 15, .65);
-  color: #f1f5f9;
+  
   border-radius: 1em;
 }
 #projects {
   background: rgba(15, 15, 15, .65);
-  color: #f1f5f9;
+
   border-radius: 1em;
 }
 
 
 .card {
-  background-color: #1f2937;
-  color: #d1d5db;
+  background: linear-gradient(0, #FFE06B, #f9faf8, #FFE06B);
+ 
   border: none;
   border-radius: 1em;
   transition: transform 0.3s ease;
@@ -96,9 +77,17 @@ p {
   text-decoration: none;
   
 }
-.topo a :hover{
-  color: red
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23FFD700' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+.navbar-toggler {
+  border: 2px solid black; /* Borda preta */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23FFD700' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 
 .topo-seta{
   
@@ -118,14 +107,16 @@ footer{
   overflow-x: hidden;
 }
 #navbarMenu {
-  background-color: #fff !important; /* amarelo em sm */
+
   max-width: 60%;
+  background: linear-gradient(0, #FFE06B, #f9faf8, #FFE06B)
   
 
 }
 
 .nav-link{
-  color: #1f2937;
+  
+  z-index: 1000;
 }
 
 }
