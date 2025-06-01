@@ -1,6 +1,8 @@
+import './Services.css'
+
 const Services = () =>{
     return(
-        <section id="services" class="py-5">
+        <section id="services" className="py-5 bg-primar text-light">
 <div class="container">
   <h2 class="text-center mb-4">Serviços</h2>
   <div class="row g-4">

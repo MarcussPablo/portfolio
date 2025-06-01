@@ -4,8 +4,8 @@ import './Projects.css'
 export default function Projects({handleAlert}) {
 
   return (
-    <section id="projects" className="py-5 ">
-      <div className="container">
+    <section id="projects" className="py-5 bg-primar text-light ">
+      <div className="container bg-primar">
         <h2 className="text-center mb-5">Projetos relevantes</h2>
         <div className="row g-4">
 
@@ -22,6 +22,11 @@ export default function Projects({handleAlert}) {
                 <a href="https://clever-torrone-4b25b7.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-info ms-1 btn-sm">
                   Ver online
                 </a>
+                </div>
+                <div className='mx-auto mt-2'>
+                <button className="btn btn-outline-success ms-1 btn-sm">
+                  Detalhes do projeto
+                </button>
                 </div>
               </div>
             </div>
@@ -43,6 +48,11 @@ export default function Projects({handleAlert}) {
                Ver online
                 </button> 
                 </div>
+                <div className='mx-auto mt-2'>
+                <button className="btn btn-outline-success ms-1 btn-sm">
+                  Detalhes do projeto
+                </button>
+                </div>
               </div>
             </div>
           </div>
@@ -53,7 +63,7 @@ export default function Projects({handleAlert}) {
               <img src="/images/task-list-apu.png" className="card-img-top" style={{height:'200px'}} alt="Projeto 1" />
               <div className="card-body d-flex flex-column justify-content-between">
                 <h5 className="card-title">Task-list React/API</h5>
-                <p className="card-text ">Task-list com 3/4 de CRUD(get/update/delete) com API simulada Jsonplaceholder e Bootstrap na estilização.</p>
+                <p className="card-text ">Task-list com 3/4 de CRUD(get/update/delete) com API simulada Jsonplaceholder.</p>
                 <div className='mx-auto'>
                 <a href="https://github.com/MarcussPablo/TaskLIst-Api-3-4-crud" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark  btn-sm">
                   Ver no GitHub
@@ -62,7 +72,11 @@ export default function Projects({handleAlert}) {
                   Ver online
                 </a>
                 </div>
-
+                <div className='mx-auto mt-2'>
+                <button className="btn btn-outline-success ms-1 btn-sm">
+                  Detalhes do projeto
+                </button>
+                </div>
               </div>
             </div>
           </div>

@@ -1,8 +1,8 @@
 const About = () => {
     return (
-        <section>
-            <h2 className="text-center fs-1">Sobre o autor</h2>
-            <div className="row align-items-center justify-content-center rounded p-4" id="sobre">
+        <section className="bg-primar text-light ">
+            <h2 className="text-center fs-1 py-4">Sobre o autor</h2>
+            <div className="row align-items-center justify-content-center container mx-auto  " id="sobre">
                 
                 <div className="col-12 col-md-6 text-center mb-3 mb-md-0">
                     <img className="img-fluid  " style={{ width: "300px" }} src="/images/sem_marca_dagua.png" alt="Marcus Lins" />

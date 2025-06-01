@@ -1,7 +1,6 @@
 body{
   background-color: #1a1a14;
-   color: #f0f0f0
-;
+   color: #f0f0f0;
 }
 
 
@@ -33,18 +32,6 @@ p {
   font-size: 1.1rem;
 }
 
-
-
-#services{
-  background: rgba(15, 15, 15, .65);
-  
-  border-radius: 1em;
-}
-#projects {
-  background: rgba(15, 15, 15, .65);
-
-  border-radius: 1em;
-}
 
 
 .card {

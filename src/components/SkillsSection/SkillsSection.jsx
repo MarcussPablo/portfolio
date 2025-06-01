@@ -4,7 +4,7 @@ import './SkilsSection.css'
 
 export default function SkillsSection() {
   return (
-    <section id="skills" className="py-5">
+    <section id="skills" className="py-5 bg-primar text-light">
       <div className="container text-center">
         <h2 className="mb-4">Habilidades</h2>
         <div className="row g-4 justify-content-center">
