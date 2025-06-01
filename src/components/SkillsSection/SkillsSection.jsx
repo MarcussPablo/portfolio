@@ -10,42 +10,42 @@ export default function SkillsSection() {
         <div className="row g-4 justify-content-center">
           
           <div className="col-6 col-sm-4 col-md-3">
-            <div className="p-3 border rounded shadow-sm bg-hability text-dark">
+            <div className="p-3 rounded shadow-sm bg-hability text-dark">
               <FaHtml5 size={40} className="mb-2 text-danger" />
               <p className="mb-0">HTML5</p>
             </div>
           </div>
 
           <div className="col-6 col-sm-4 col-md-3">
-            <div className="p-3 border rounded shadow-sm bg-hability text-dark">
+            <div className="p-3 rounded shadow-sm bg-hability text-dark">
               <FaCss3Alt size={40} className="mb-2 text-primary" />
               <p className="mb-0">CSS3</p>
             </div>
           </div>
 
           <div className="col-6 col-sm-4 col-md-3">
-            <div className="p-3 border rounded shadow-sm bg-hability text-dark">
+            <div className="p-3  rounded shadow-sm bg-hability text-dark">
               <SiJavascript size={40} className="mb-2 text-warning" />
               <p className="mb-0">JavaScript</p>
             </div>
           </div>
 
           <div className="col-6 col-sm-4 col-md-3">
-            <div className="p-3 border rounded shadow-sm bg-hability text-dark">
+            <div className="p-3  rounded shadow-sm bg-hability text-dark">
               <FaReact size={40} className="mb-2 text-cyan-400" />
               <p className="mb-0">React</p>
             </div>
           </div>
 
           <div className="col-6 col-sm-4 col-md-3">
-            <div className="p-3 border rounded shadow-sm bg-hability text-dark">
+            <div className="p-3  rounded shadow-sm bg-hability purple">
               <FaBootstrap size={40} className="mb-2 text-purple-500" />
               <p className="mb-0">Bootstrap</p>
             </div>
           </div>
 
           <div className="col-6 col-sm-4 col-md-3">
-            <div className="p-3 border rounded shadow-sm bg-hability text-dark">
+            <div className="p-3  rounded shadow-sm bg-hability text-dark">
               <FaGithub size={40} className="mb-2" />
               <p className="mb-0">GitHub</p>
             </div>

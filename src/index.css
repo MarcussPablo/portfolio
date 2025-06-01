@@ -34,14 +34,16 @@ p {
 
 
 
-.card {
-  background: linear-gradient(0, #FFE06B, #f9faf8, #FFE06B);
- 
+.card{
+  
   border: none;
   border-radius: 1em;
   transition: transform 0.3s ease;
 }
-
+.card-body{
+  background: linear-gradient(0, #FFE06B, #f9faf8, #FFE06B);
+  border-radius: .3rem;
+}
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
