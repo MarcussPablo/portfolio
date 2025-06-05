@@ -4,7 +4,7 @@ import './Projects.css'
 export default function Projects({ handleAlert }) {
 
   return (
-    <section id="projects" className="py-5 bg-primar text-light ">
+    <section id="projects" className="py-5 bg-light text-dark ">
       <div className="container bg-primar">
         <h2 className="text-center mb-5">Projetos relevantes</h2>
         <div className="row g-4">
