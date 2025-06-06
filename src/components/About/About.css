@@ -2,6 +2,7 @@
    display: grid;
    grid-template-columns: 1fr 1fr;
    padding: 16px;
+   margin-bottom: -10px;
 }
 .texto-top{
    display: flex;
@@ -15,7 +16,7 @@
  display: flex;
  align-items: center;
  text-align: justify;
- padding: 16px;
+ 
 
 }
 .image-container{
@@ -42,6 +43,9 @@
    }
    .texto-top{
 
-   text-align: center;
+   text-align: justify;
+}
+.texto-bottom{
+padding: 0;
 }
 }
