@@ -1,3 +1,47 @@
-.bg-primar{
-   background-color: #1a1a14;
+.hero-display{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 16px;
+}
+.texto-top{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: start;
+}
+.texto-bottom {
+ justify-content: space-between;
+ grid-column: 1/-1;
+ display: flex;
+ align-items: center;
+ text-align: justify;
+ padding: 16px;
+
+}
+.image-container{
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+.sobre-autor{
+   text-align: center;
+   padding: 16px;
+   font-size: 48px;
+   font-weight: 800;
+}
+
+
+@media (max-width: 424px){
+   .hero-display{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+   }
+   .texto-top{
+
+   text-align: center;
+}
 }

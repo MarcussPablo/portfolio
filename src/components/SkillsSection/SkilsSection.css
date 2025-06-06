@@ -1,5 +1,12 @@
-
-
-.purple{
+.purple {
    color: #7952B3;
+}
+
+.skills-title {
+   text-align: center;
+   padding: 16px;
+   font-size: 48px;
+   font-weight: 800;
+   margin-bottom: 16px;
+
 }

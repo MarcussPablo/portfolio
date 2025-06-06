@@ -2,14 +2,14 @@ import './Services.css'
 
 const Services = () =>{
     return(
-        <section id="services" className="py-5 bg-light text-dark">
+<section id="services" className="bg-light text-dark">
 <div class="container ">
-  <h2 class="text-center mb-4">Serviços</h2>
+  <h2 className="text-center service-title">Serviços</h2>
   <div class="row g-4">
     
     <div class="col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm ">
-        <div class="card-body card-border  ">
+        <div class="card-body  ">
           <h5 class="card-title">Criação de Sites Responsivos</h5>
           <p class="card-text">Desenvolvimento de landing pages e sites institucionais modernos com HTML, CSS e Bootstrap.</p>
         </div>

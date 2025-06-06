@@ -4,16 +4,16 @@ import './Projects.css'
 export default function Projects({ handleAlert }) {
 
   return (
-    <section id="projects" className="py-5 bg-light text-dark ">
-      <div className="container bg-primar">
-        <h2 className="text-center mb-5">Projetos relevantes</h2>
+    <section id="projects" className=" bg-light ">
+      <div className="container bg-primar ">
+        <h2 className="text-center proj-title ">Projetos relevantes</h2>
         <div className="row g-4">
 
           <div className="col-md-6 col-lg-4">
             <div className="card h-100 shadow-sm">
               <img src="/images/ecommerce.png" className="card-img-top" style={{ height: '200px' }} alt="Projeto 1" />
-              <div className="card-body d-flex flex-column justify-content-between">
-                <h5 className="card-title">E-commerce React</h5>
+              <div className="card-body d-flex flex-column justify-content-between ">
+                <h5 className="card-title ">E-commerce React</h5>
                 <p className="card-text">Projeto de loja online com React, consumo de API e carrinho funcional.</p>
                 <div className="mx-auto">
                   <a href="https://github.com/MarcussPablo/2-Ecoomerce-Complete" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark btn-sm">
@@ -37,7 +37,7 @@ export default function Projects({ handleAlert }) {
             <div className="card h-100 shadow-sm">
               <img src="/images/landing-page.png" className="card-img-top" style={{ height: '200px' }} alt="Projeto 2" />
               <div className="card-body d-flex flex-column justify-content-between">
-                <h5 className="card-title ">Landing Page Responsiva</h5>
+                <h5 className="card-title ">Site portfólio.</h5>
                 <p className="card-text ">Página institucional feita com React e Bootstrap, totalmente responsiva.</p>
                 <div className='mx-auto'>
                   <a href="https://github.com/seuusuario/landing-page" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark btn-sm">
@@ -114,7 +114,7 @@ export default function Projects({ handleAlert }) {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h1 className="modal-title fs-5" id="projeto_2_modal_label">Landing page React</h1>
+              <h1 className="modal-title fs-5" id="projeto_2_modal_label">Site portfólio</h1>
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
