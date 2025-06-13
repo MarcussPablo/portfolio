@@ -82,6 +82,29 @@ export default function Projects({ handleAlert }) {
             </div>
           </div>
 
+          <div className="col-md-6 col-lg-4 ">
+            <div className="card  h-100 shadow-sm ">
+              <img src="/images/pokereact.png" className="card-img-top" style={{ height: '200px' }} alt="Projeto 1" />
+              <div className="card-body d-flex flex-column justify-content-between">
+                <h5 className="card-title">Pokedex-React</h5>
+                <p className="card-text ">Pokedex criada com React e Bootstrap, utilizando pokeapi.co</p>
+                <div className='mx-auto'>
+                  <a href="https://github.com/MarcussPablo/PokeDex-React" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark  btn-sm">
+                    Ver no GitHub
+                  </a>
+                  <a href="https://pokreact.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-info ms-1 btn-sm">
+                    Ver online
+                  </a>
+                </div>
+                <div className='mx-auto mt-2'>
+                  <button className="btn btn-outline-success ms-1 btn-sm" data-bs-toggle="modal" data-bs-target="#projeto_4">
+                    Detalhes do projeto
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -90,7 +113,7 @@ export default function Projects({ handleAlert }) {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h1 className="modal-title fs-5" id="projeto_1_modal_label">E-commerce React</h1>
+              <h1 className="modal-title fs-3" id="projeto_1_modal_label">E-commerce React</h1>
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
@@ -114,7 +137,7 @@ export default function Projects({ handleAlert }) {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h1 className="modal-title fs-5" id="projeto_2_modal_label">Site portfólio</h1>
+              <h1 className="modal-title fs-3" id="projeto_2_modal_label">Site portfólio</h1>
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
@@ -131,7 +154,7 @@ export default function Projects({ handleAlert }) {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h1 className="modal-title fs-5" id="projeto_3_modal_label">Task-list-Api</h1>
+              <h1 className="modal-title fs-3" id="projeto_3_modal_label">Task-list-Api</h1>
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
@@ -143,6 +166,28 @@ export default function Projects({ handleAlert }) {
               <br />
               Também exolora conceitos de funçoes nativas do <strong>JavaScript </strong>
               como <strong>.map() e .filter() </strong> dentre outros.
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div className="modal fade mt-5" id="projeto_4" tabindex="-1" aria-labelledby="projeto_3_modal_label" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h1 className="modal-title fs-3" id="projeto_3_modal_label">Pokedex-React</h1>
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              A aplicação se utiliza de fetch encadeados conectados a API <a href="http://pokeapi.co">pokeapi.co</a>, 
+              componentização em React, bem como uso dos hooks <strong>useEfect-useState-useRef</strong> e <strong>Props</strong> para 
+              encadear e conectar a componentização.
+              <br />
+              Também conta com <strong>Bootstrap</strong> para estilização e configuração e uso de <strong>Modais </strong>
+              que são exibidos quando se clica em "ver detalhes". E com aproximadamente 700 linhas de <strong>CSS</strong> para 
+              configurações adicionais de <strong>animações</strong>, posicionamento e cores. 
+              
             </div>
 
           </div>
