@@ -14,7 +14,7 @@ const handleAlert =() => {
   alert("Você já está desfrutando desta experiêcia.😁")
 }
   return(
-    <div className="parent">
+    <div className="parent bg-body-secondary">
       <Header/>
       <Hero/>
       <About/>

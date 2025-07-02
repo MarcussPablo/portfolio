@@ -3,12 +3,17 @@
    grid-template-columns: 1fr 1fr;
    padding: 16px;
    margin-bottom: -10px;
+   
+}
+.hero-display p{
+   font-size: 1.25rem;
 }
 .texto-top{
    display: flex;
    align-items: center;
    justify-content: center;
    text-align: start;
+   font-weight: 500;
 }
 .texto-bottom {
  justify-content: space-between;
@@ -16,7 +21,7 @@
  display: flex;
  align-items: center;
  text-align: justify;
- 
+ font-weight: 500;
 
 }
 .image-container{

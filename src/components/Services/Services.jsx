@@ -2,7 +2,7 @@ import './Services.css'
 
 const Services = () =>{
     return(
-<section id="services" className="bg-light text-dark">
+<section id="services" className="text-dark">
 <div class="container ">
   <h2 className="text-center service-title">Serviços</h2>
   <div class="row g-4">

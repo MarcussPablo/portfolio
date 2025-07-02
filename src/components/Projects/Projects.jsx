@@ -4,7 +4,7 @@ import './Projects.css'
 export default function Projects({ handleAlert }) {
 
   return (
-    <section id="projects" className=" bg-light ">
+    <section id="projects" className="">
       <div className="container bg-primar ">
         <h2 className="text-center proj-title ">Projetos relevantes</h2>
         <div className="row g-4">
