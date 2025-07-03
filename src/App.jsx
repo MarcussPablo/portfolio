@@ -3,6 +3,7 @@ import About from './components/About/About'
 import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
+import LandingPages from './components/LandingPages/LandingPages'
 import Projects from './components/Projects/Projects'
 import Services from './components/Services/Services'
 import SkillsSection from './components/SkillsSection/SkillsSection'
@@ -18,6 +19,7 @@ const handleAlert =() => {
       <Header/>
       <Hero/>
       <About/>
+      <LandingPages/>
       <Projects handleAlert={handleAlert} />
       <Services/>
       <SkillsSection/>
