@@ -7,7 +7,7 @@ const LandingPages = () => {
 
                     <div className="col-md-6 col-lg-4">
                         <div className="card h-100 shadow-sm">
-                            <img src="public/images/landing01.png" className="card-img-top" style={{ height: '100%' }} alt="Projeto 1" />
+                            <img src="/images/landing01.png" className="card-img-top" style={{ height: '100%' }} alt="Projeto 1" />
                             <div className="card-body d-flex flex-column justify-content-between ">
                                 <div className="mx-auto">
                                     <a href="https://github.com/MarcussPablo/landing-01" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark btn-sm">
@@ -23,7 +23,7 @@ const LandingPages = () => {
 
                     <div className="col-md-6 col-lg-4">
                         <div className="card h-100 shadow-sm">
-                            <img src="public/images/landing02.png" className="card-img-top" style={{ height: '100%' }} alt="Projeto 1" />
+                            <img src="/images/landing02.png" className="card-img-top" style={{ height: '100%' }} alt="Projeto 1" />
                             <div className="card-body d-flex flex-column justify-content-between ">
                                 <div className="mx-auto">
                                     <a href="https://github.com/MarcussPablo/landing02" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark btn-sm">
@@ -39,7 +39,7 @@ const LandingPages = () => {
 
                     <div className="col-md-6 col-lg-4">
                         <div className="card h-100 shadow-sm">
-                            <img src="public/images/landing03.png" className="card-img-top" style={{ height: '100%' }} alt="Projeto 1" />
+                            <img src="/images/landing03.png" className="card-img-top" style={{ height: '100%' }} alt="Projeto 1" />
                             <div className="card-body d-flex flex-column justify-content-between ">
                                 <div className="mx-auto">
                                     <a href="https://github.com/MarcussPablo/landing03" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark btn-sm">
