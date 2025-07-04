@@ -33,6 +33,7 @@ const Hero = () => (
         </div>
       </div>
     </div>
+{/* <a href="/blog">Acesse o blog</a> */}
 
   </section>
 );
