@@ -60,7 +60,7 @@ export default function SkillsSection() {
 
           <div className="col-6 card col-sm-4 col-md-3">
             <div className="p-3  bg-hability text-dark">
-              <img src={styled} className="mb-2 styled " />
+              <img src='images/styled.png' className="mb-2 styled " />
               <p className="mb-0">Styled-components</p>
             </div>
           </div>
