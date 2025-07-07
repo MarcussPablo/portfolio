@@ -2,7 +2,7 @@ import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaGithub } from 'react-icons/
 import { SiJavascript, SiStyledcomponents } from 'react-icons/si';
 import { FaGitAlt } from "react-icons/fa6";
 import './SkilsSection.css'
-
+import styled from '/images/styled.png'
 export default function SkillsSection() {
   return (
     <section id="skills" className="mb-5 text-dark">
@@ -60,7 +60,7 @@ export default function SkillsSection() {
 
           <div className="col-6 card col-sm-4 col-md-3">
             <div className="p-3  bg-hability text-dark">
-              <img src='public/images/styled.png' className="mb-2 styled " />
+              <img src={styled} className="mb-2 styled " />
               <p className="mb-0">Styled-components</p>
             </div>
           </div>
