@@ -33,7 +33,7 @@ const Hero = () => (
         </div>
       </div>
     </div>
-{/* <a href="/blog">Acesse o blog</a> */}
+<a href="/blog">Acesse o blog de mistérios e assombrações</a> 
 
   </section>
 );

@@ -1,5 +1,5 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaGithub } from 'react-icons/fa';
-import { SiJavascript } from 'react-icons/si';
+import { SiJavascript, SiStyledcomponents } from 'react-icons/si';
 import { FaGitAlt } from "react-icons/fa6";
 import './SkilsSection.css'
 
@@ -51,7 +51,7 @@ export default function SkillsSection() {
               <p className="mb-0">GitHub</p>
             </div>
           </div>
-                    <div className="col-6 card col-sm-4 col-md-3">
+          <div className="col-6 card col-sm-4 col-md-3">
             <div className="p-3  bg-hability text-dark">
               <FaGitAlt size={40} className="mb-2 text-git" />
               <p className="mb-0">Git</p>
@@ -60,8 +60,15 @@ export default function SkillsSection() {
 
           <div className="col-6 card col-sm-4 col-md-3">
             <div className="p-3  bg-hability text-dark">
+              <img src='public/images/styled.png' className="mb-2 styled " />
+              <p className="mb-0">Styled-components</p>
+            </div>
+          </div>
+
+          <div className="col-6 card col-sm-4 col-md-3">
+            <div className="p-3  bg-hability text-dark">
               <img src='images/figmasvg-removebg-preview.png'style={{
-                height:'3rem'
+                height:'2.3rem'
               }} className="mb-2" />
               <p className="mb-0">Figma</p>
             </div>

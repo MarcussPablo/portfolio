@@ -4,6 +4,7 @@ import { AddBanner } from '../../components/AddBanner/AddBanner';
 function Blog() {
   return (
     <div style={{ maxWidth: 800, margin: '0 auto', padding: 20 }}>
+      <a href="/">Acesse o site portfolio do autor</a> 
       <h1>Blog de Histórias Assombradas</h1>
       <AddBanner/>
       {posts.map(post => (
