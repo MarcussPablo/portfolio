@@ -46,26 +46,12 @@
     z-index: 0;
 }
 
-.hero-background::before{
-    content: '';
-    background: url('/images/background2.webp');
-    position: absolute;
-    z-index: -1;
-    background-position: center;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    min-height: 100vh;
-    height: 100%;
-    min-width: 100%;
-    opacity: .4;
-}
 
 .hero-background h1 {
     opacity: 1;
     font-weight: bolder;
     font-size: clamp(1.5rem, 5vw, 3rem);
-    background: linear-gradient(0,#FFE06B ,#ddab36, #FFE06B);
+    margin: 2rem 0 3rem 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -78,8 +64,8 @@
     
     display: flex;
     padding: 4rem;
-     transition: transform 0.3s ease;
-    background: linear-gradient(0, #FFE06B, #fff8dc75, #ffdf6b60);
+    transition: transform 0.3s ease;
+    background: linear-gradient(0deg, #4F46E5, #A78BFA 60%, #E0E7FF);
     animation: fadeInUp 1.5s ease ;
     
 }
@@ -92,7 +78,7 @@
     margin: 5px 5px;
     font-size: large;
     font-weight: bolder;
-    background: linear-gradient(to right, #ffd700, #ffcc00);
+    background: #9F4EFF;
     border: none;
     color: black;
     animation: pisca infinite 3s alternate ;
@@ -113,7 +99,11 @@
 }
 
 .faixa-hero button:hover{
-background: linear-gradient(0, #FFE06B, #f9faf8, #FFE06B);
+background:#B266FF;
+  text-shadow:
+    0 0 5px #B266FF,
+    0 0 10px #B266FF,
+    0 0 20px #D6A8FF;;
 color: black;
     
 }

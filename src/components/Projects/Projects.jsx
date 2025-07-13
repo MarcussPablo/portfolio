@@ -13,8 +13,8 @@ export default function Projects({ handleAlert }) {
             <div className="card h-100 shadow-sm">
               <img src="/images/ecommerce.png" className="card-img-top" style={{ height: '200px' }} alt="Projeto 1" />
               <div className="card-body d-flex flex-column justify-content-between ">
-                <h5 className="card-title ">E-commerce React</h5>
-                <p className="card-text">Projeto de loja online com React, consumo de API e carrinho funcional.</p>
+          
+    
                 <div className="mx-auto">
                   <a href="https://github.com/MarcussPablo/2-Ecoomerce-Complete" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark btn-sm">
                     Ver no GitHub
@@ -37,8 +37,8 @@ export default function Projects({ handleAlert }) {
             <div className="card h-100 shadow-sm">
               <img src="/images/landing-page.png" className="card-img-top" style={{ height: '200px' }} alt="Projeto 2" />
               <div className="card-body d-flex flex-column justify-content-between">
-                <h5 className="card-title ">Site portfólio.</h5>
-                <p className="card-text ">Página institucional feita com React e Bootstrap, totalmente responsiva.</p>
+
+
                 <div className='mx-auto'>
                   <a href="https://github.com/seuusuario/landing-page" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark btn-sm">
                     Ver no GitHub
@@ -63,8 +63,8 @@ export default function Projects({ handleAlert }) {
             <div className="card  h-100 shadow-sm ">
               <img src="/images/task-list-apu.png" className="card-img-top" style={{ height: '200px' }} alt="Projeto 1" />
               <div className="card-body d-flex flex-column justify-content-between">
-                <h5 className="card-title">Task-list React/API</h5>
-                <p className="card-text ">Task-list com 3/4 de CRUD(get/update/delete) com API simulada Jsonplaceholder.</p>
+     
+
                 <div className='mx-auto'>
                   <a href="https://github.com/MarcussPablo/TaskLIst-Api-3-4-crud" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark  btn-sm">
                     Ver no GitHub
@@ -86,8 +86,8 @@ export default function Projects({ handleAlert }) {
             <div className="card  h-100 shadow-sm ">
               <img src="/images/pokereact.png" className="card-img-top" style={{ height: '200px' }} alt="Projeto 1" />
               <div className="card-body d-flex flex-column justify-content-between">
-                <h5 className="card-title">Pokedex-React</h5>
-                <p className="card-text ">Pokedex criada com React e Bootstrap, utilizando pokeapi.co</p>
+            
+
                 <div className='mx-auto'>
                   <a href="https://github.com/MarcussPablo/PokeDex-React" target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark  btn-sm">
                     Ver no GitHub

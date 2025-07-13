@@ -5,7 +5,7 @@ const Header = () => (
   id="top"
   >
     <div className="container">
-      <img className="logo" src="images/logo2.png" alt="logo" />
+      <img className="logo" src="images/logo4.png" alt="logo" />
 
       {/* Botão Hamburguer */}
       <button
