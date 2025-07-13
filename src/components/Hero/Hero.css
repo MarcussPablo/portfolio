@@ -1,7 +1,7 @@
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateX(100VW);
+    transform: translateX(100vh);
   }
   to {
     opacity: 1;
@@ -37,15 +37,19 @@
 
 .hero-background {
     
-    background: url(/images/background.png);
+    background: url('/images/background.png');
     min-height: 100vh;
     height: 100%;
     width: 100%;
     margin-top:50px;
-    position: relative;
+    overflow-x: hidden;
     z-index: 0;
     background-position: center;
     background-size: cover;
+      display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -59,6 +63,7 @@
     background-clip: text;
     color: transparent;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    font-family: "Orbitron", sans-serif;
     
     
 }
@@ -67,7 +72,8 @@
     display: flex;
     padding: 4rem;
     transition: transform 0.3s ease;
-    background: linear-gradient(0deg, #4F46E5, #A78BFA 60%, #E0E7FF);
+    background: linear-gradient(0deg,#1E1E2F 0%,#60F0FF 35%,#FF66D4 70%,#1E1E2F 100%);
+    
     animation: fadeInUp 1.5s ease ;
     
 }
@@ -80,10 +86,11 @@
     margin: 5px 5px;
     font-size: large;
     font-weight: bolder;
-    background: #9F4EFF;
+    background:  #FF66D4;
     border: none;
     color: black;
     animation: pisca infinite 3s alternate ;
+    font-family: "Orbitron", sans-serif;
     
 
 }
@@ -95,17 +102,14 @@
   align-items: center;
 }
 
-.faixa-hero:hover{
-    transform:translateY(-10px) ;
-    
-}
+
 
 .faixa-hero button:hover{
-background:#B266FF;
-  text-shadow:
-    0 0 5px #B266FF,
-    0 0 10px #B266FF,
-    0 0 20px #D6A8FF;;
+background-color: #9F4EFF;
+text-shadow:
+  0 0 4px #60F0FF,
+  0 0 8px #60F0FF,
+  0 0 12px #FF66D4;
 color: black;
     
 }
