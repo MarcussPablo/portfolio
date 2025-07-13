@@ -44,3 +44,21 @@
         height: 2rem;
     }
 }
+
+#navbarMenu{
+     background: linear-gradient(0deg,#1E1E2F 0%,#60F0FF 35%,#FF66D4 70%,#1E1E2F 100%);
+     border-radius: 1rem;
+     
+}
+
+.navbar-toggler{
+  background: linear-gradient(0deg,#1E1E2F 0%,#60F0FF 35%,#FF66D4 70%,#1E1E2F 100%);  
+}
+#navbarMenu .nav-item .nav-link:hover{
+    background-color: #9F4EFF;
+text-shadow:
+  0 0 4px #60F0FF,
+  0 0 8px #60F0FF,
+  0 0 12px #FF66D4;
+    border-radius: 1rem;
+}

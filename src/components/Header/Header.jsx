@@ -1,7 +1,7 @@
 import './Header.css'
 
 const Header = () => (
-  <nav className="navbar navbar-expand-md navbar-warning "
+  <nav className="navbar navbar-expand-md "
   id="top"
   >
     <div className="container">

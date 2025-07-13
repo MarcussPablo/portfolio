@@ -113,3 +113,9 @@ text-shadow:
 color: black;
     
 }
+
+@media (max-width:540px) {
+  .faixa-hero{
+    height: 80%;
+  }
+}
